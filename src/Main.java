@@ -45,7 +45,7 @@ public class Main {
                     case "BORRAR" -> db.eliminar(p);
                 }
             }
-            System.out.println(db);
+            System.out.println(db.generarInforme());
         }
     }
 }
